@@ -16,18 +16,22 @@ A new3ds (or new2ds) on firmware:<br>
 11.14.0-46 on all 4 new3ds regions US,EU,JP,KR
 ```
 
-## Directions 
+## Directions (hbmenu)
 
 1) In the release folder, find your region (USA, EUROPE, JAPAN, KOREA) and take all files *inside* that folder and put them on the root of your sd card. Do not copy the entire region folder over, just its contents.
 2) Place the homebrew launcher boot.3dsx from [here](https://github.com/fincs/new-hbmenu/releases/tag/v2.2.0) also on the root of your sd card.
 3) With wifi on and working, scan [this QR](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax-xl&qzone=1&margin=0&size=400x400&ecc=L) after pressing L+R should buttons together and tapping the QR button on the bottom screen. The link to the sploit page is https://zoogie.github.io/web/nbhax-xl/ if you want to type it in manually and/or bookmark it.
 4) The exploit should then immediately flash colors and load the homebrew menu. Make sure to add homebrews to the sdmc:/3ds folder first in order to have something to run. See other guides online about what you can do with homebrew.
 
+## Directions (boot9strap)
+
+https://3ds.hacks.guide (coming soon)
+
 ## Exploit details
 
 This is a simple stack smash that occurs when a .css @import command contains a '#' (url fragment) at the beginning of the url. The webkit test demo this is based on can be found [here](https://github.com/WebKit/webkit/blob/master/LayoutTests/http/tests/css/css-imports-url-fragment.css).
 
-## Troubleshooting
+## Troubleshooting (hbmenu)
 
 - Problem: The 3ds freezes on a yellow screen.<br>
 Solution: Try again. Boot rate is about 75-80%. This has always been an issue with *hax homebrew and not specific to this implementation.* If this keeps occurring over and over, it's likely being caused by running browserhax while cfw (luma3ds + boot9strap) is already installed -- don't do this! Follow https://3ds.hacks.guide for proper instructions on how to launch .3dsx homebrew under cfw. Hard freezing with regular screens (ie no solid colored screen) can also indicate running under cfw.
