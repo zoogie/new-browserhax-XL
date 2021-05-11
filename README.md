@@ -48,7 +48,7 @@ Solution: First, tap the bottom left star icon, then select top right History ta
 
 ## FAQ
 Q: Will you support old3ds, old2ds?<br>
-A: Planned. I already have a working exploit for spider but it's pretty unstable. Needs more time.
+A: https://github.com/zoogie/old-browserhax-XL/
 
 Q: Can I install [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE) with this to get cfw?<br>
 A: Absolutely, be my guest : ) You can boot slotTool.3dsx and install the hacked wifi slots, then run the unSAFE_MODE exploit. No explicit directions will be given for that here, but guides should pop up soon with directions.
