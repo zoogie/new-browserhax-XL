@@ -1,4 +1,4 @@
-# new-browserhax-XL
+# new-browserhax-XL (11.15 KILL)
 
 ## Thanks 
 - webkit test cases 
